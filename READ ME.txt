@@ -1,0 +1,50 @@
+1. Download and save all the files into your workspace on your computer.
+2. open the TERMINAL. compile and run the server and client java as follows
+3.for server run as follows
+    java <classname> <dir_path> 
+4. for Client run as follows
+    command 1& 4:
+    java <classname> <dir_path> <command number>
+  command 2& 3:
+    java <classname> <dir_path> <command number> <file_name>
+
+commands
+1. lists all the files on the server
+2. to upload a file onto the server
+3. to download a file
+4. to shutdown
+
+Enter uploading file name with command args as second argument
+Enter downloading file name with command args as second argument
+
+<dir_path> to server and client that contains files
+example : "G:\\swe622\\PA1\\server\\"
+
+classnames :
+
+JavaClientFile
+JavaServerFile
+
+
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+D:\tshaga>set path="C:\Program Files (x86)\Java\jdk1.8.0_141\bin";%path%
+
+D:\tshaga>cd C:\Program Files (x86)\Java\jdk1.8.0_141\bin
+
+D:\tshaga>javac JavaServerFile.java
+javac: file not found: JavaServerFile.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+D:\tshaga>cd D:\tshaga\Documents\PA1
+
+D:\tshaga\Documents\PA1>javac JavaServerFile.java
+
+D:\tshaga\Documents\PA1>java JavaServerFile
+Server started...
+Server is waiting for connections...
+Enter server directory
+
+D:\tshaga\Documents\PA1>
